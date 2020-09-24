@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:ital@1&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2 {
+	font-family: 'Lobster', cursive;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background: #1a1a1a;
+	color: #727272;
+}
+
+.wrapper {
+	width: 50%;
+	margin: 40px auto;
+}
+
+.todo-header {
+	background-color: #fdbf50;
+	padding: 20px;
+}
+
+.todo-header h1 {
+	color: #fff;
+	text-shadow: 4px 4px 8px #1a1a1a;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.todo-header input {
+	width: 100%;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 1px solid #1a1a1a;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	outline: none;
+}
+
+.todo-header button {
+	background-color: #1a1a1a;
+	color: #fdbf50;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+	transition: 300ms all ease-in-out;
+}
+
+.todo-header button:hover {
+	background-color: #e9ede0;
+	color: #333;
+}
+
+.todo-list {
+	background-color: #fff;
+}
+
+.todo-list ul li {
+	font-size: 18px;
+	position: relative;
+	padding: 12px 8px 12px 40px;
+	cursor: pointer;
+	transition: 200ms;
+	user-select: none;
+	list-style-type: none;
+}
+
+.todo-list-item li:nth-child(odd) {
+	background-color: #f3f3f3;
+}
